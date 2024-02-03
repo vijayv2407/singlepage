@@ -1,0 +1,832 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.maindivheader {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: space-between;
+  
+}
+.subdivone img {
+  width: 80px;
+  height: 60px;
+}
+.headerflex {
+  display: flex;
+  margin-top: 10px;
+}
+.headerflex li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+.headerflex a {
+  text-decoration: none;
+  color: black;
+}
+.contactus {
+  padding: 10px;
+  background-color: #d3cccc;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-right: -50px;
+}
+.herosectionmaindiv {
+  display: flex;
+}
+.herosectionsubdivone,
+.herosectionsubdivtwo {
+  width: 50%;
+  margin-top: 20px;
+}
+.contentherosection {
+  width: 340px;
+  margin-top: 80px;
+  padding-left: 20px;
+}
+
+.contentherosectione h2 {
+  color: #635f5f;
+  font-size: 10px;
+}
+.contentherosection h1 {
+  color: #252424;
+  font-size: 53px;
+}
+
+.herosectionform {
+  display: flex;
+  position: absolute;
+  margin-top: 40px;
+}
+.herosectionform input {
+  /* width: 601px;  */
+  margin-left: 20px;
+  padding: 20px 460px 20px 20px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  outline: none;
+}
+.herosectionform button {
+  width: 150px;
+  background-color: #5c49d3;
+  border: none;
+  border-radius: 6px;
+  color: aliceblue;
+}
+.herosectionsubdivtwo img {
+  height: 580px;
+  width: 623px;
+  margin-top: 15px;
+  margin-left: 16px;
+}
+.headingone {
+  font-size: 53px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position:relative;
+}
+.galleryimage {
+  width: 300px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.placename a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.maindivcategory {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.subdivcategoryone,
+.subdivcategorytwo {
+  width: 50%;
+}
+.subdivcategorytwo {
+  margin: 70px 20px 30px 30px;
+}
+.categorygallery {
+  display: flex;
+  justify-content: center;
+}
+.categoryimage {
+  margin: 15px;
+}
+
+.categoryimage a {
+  position: absolute;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #5c49d3;
+  color: aliceblue;
+  width: 80px;
+  text-align: center;
+  margin-left: -110px;
+}
+
+.maindivadventuretrip {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.subdivadventuretripone,
+.subdivadventuretriptwo {
+  width: 50%;
+}
+.headingtwo {
+  font-size: 53px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.subdivadventuretriptwo {
+  margin: 70px 20px 30px 30px;
+}
+
+.adventuretripdemovideo iframe{
+  width: 100%;
+  height: 720px;
+}
+
+.maindivsuperoffers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.subdivsuperoffersone,
+.subdivsuperofferstwo {
+  width: 50%;
+}
+.headingthree {
+  font-size: 53px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.subdivsuperofferstwo {
+  margin: 70px 20px 30px 30px;
+}
+.maindivfiltercategories {
+  display: flex;
+  justify-content: center;
+}
+.filterform {
+  border-radius: 6px;
+  height: auto;
+  width: 180px;
+  margin: 10px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  outline: none;
+  border: none;
+}
+
+.maindivfilterform {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subdivfilterformone h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.subdivfilterformone h4 {
+  color: rgba(51, 46, 46, 0.87);
+  font-size: 11px;
+  font-weight: 600;
+  margin: 5px 0 5px 0;
+}
+.subdivfilterformtwo a {
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(82, 62, 212, 0.79);
+  text-decoration: none;
+}
+.adventuretripdemovideo {
+  border: none;
+  border-radius: 50px;
+}
+.filterformsicon label {
+  color: #474646;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  margin-top: 3px;
+}
+
+.filterformsicon button {
+  border-radius: 6px;
+  border: none;
+  background: #5c49d3;
+  width: 80px;
+  margin: 10px 0 0px 50px;
+  padding: 5px;
+}
+.filterformsicon button a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 10px;
+}
+.offersone,.offerstwo,.offersthree{
+  border-radius: 6px;
+  height: 435px;
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+}
+.offercartsimage {
+  width: 330px;
+  margin-left: -15px;
+  margin-top: -16px;
+}
+.hotelsdiv span {
+  color: rgba(66, 61, 61, 0.79);
+  font-family: Poppins;
+  font-size: 10.555px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.311px;
+}
+.maindivoffers {
+  display: flex;
+  justify-content: space-between;
+}
+.flatoffersheading span {
+  color: #000;
+  font-size: 17.777px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.tandcsapply span {
+  color: rgba(92, 73, 211, 0.8);
+  font-size: 13.333px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.267px;
+}
+.savebig span {
+  color: #000;
+  font-size: 13.333px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.offercartscontant p {
+  color: rgba(66, 61, 61, 0.85);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 5px 0 5px 0;
+}
+.offercartsbutton button {
+  border: none;
+  border-radius: 8px;
+  background-color: #5c49d3;
+  width: 80px;
+  padding: 8px;
+  margin: 10px 0 0px 105px;
+}
+.offercartsbutton a {
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+  font-size: 12px;
+}
+.subdivfiltercategoriestwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.maindivbooking {
+  display: flex;
+  justify-content: space-around;
+}
+.subdivbookingone,
+.subdivbookingtwo {
+  width: 50%;
+  margin-top: 20px;
+}
+.headingfour {
+  font-size: 53px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.subdivbookingone {
+  width: 550px;
+  height: auto;
+  padding: 20px 20px 20px 0;
+}
+.maindivdate {
+  display: flex;
+  justify-content: space-between;
+}
+.maindivrooms {
+  display: flex;
+  justify-content: space-between;
+}
+#checkin,#checkout,#font{
+  color: rgba(43, 40, 40, 0.79);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.divbookingform {
+  padding: 20px 0 40px 0;
+  margin: 15px 0 0 15px;
+}
+#boxone{
+  margin-bottom: 10px;
+  width: 230px;
+  margin-top: 10px;
+  height: 10px;
+  text-transform: uppercase;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(217, 217, 217, 0.3);
+}
+#boxtwo {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 500px;
+  height: 10px;
+  text-transform: uppercase;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(217, 217, 217, 0.3);
+}
+#boxthree{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100px;
+  height: 10px;
+  text-transform: uppercase;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(217, 217, 217, 0.3);
+}
+.bookingbutton button {
+  width: 130px;
+  height: 46px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0 19px 200px;
+}
+.bookingbutton a {
+  color: white;
+  text-decoration: none;
+}
+.bookingiamge {
+  width: 100%;
+  height: 625px;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.maindivfooter {
+  display: flex;
+  background-color: #e6e0e0ef;
+  width: 100%;
+  justify-content: space-between;
+}
+.subdivfooterone,
+.subdivfootertwo,
+.subdivfooterthree,
+.subdivfooterfour {
+  width: 240px;
+  height: auto;
+  margin: 20px 10px 0 35px;
+  
+}
+.maindivlogo {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.subdivlogoone,
+.subdivlogotwo,
+.subdivlogothree,
+.subdivlogofour,
+.subdivlogofive {
+  width: 25px;
+  height: 25px;
+  list-style-type: none;
+  padding: 15px 0 15px 0;
+}
+
+.footerheading {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 5px;
+}
+.footerpara p {
+  color: rgba(40, 37, 37, 0.9);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  padding-bottom: 5px;
+  margin-top: 16px;
+}
+.footercontact {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 5px;
+}
+.headerheadings {
+  margin: 10px 0 30px 0;
+}
+.maindivfooter h3 {
+  margin-top: 10px;
+}
+.headerheadings a {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  text-decoration: none;
+}
+.headerheadings li{
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+.copyright {
+  background-color: black;
+}
+.maindivcopyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subdivcopyrightone img {
+  width: 25px;
+  height: 25px;
+  color: white;
+  margin: 14px 2px 5px 0;
+}
+.subdivcopyrighttwo span {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  margin: 5px;
+}
+header,main,footer{
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .herosectionmaindiv,
+  .maindivheader,
+  .headerflex,
+  .maindivfooter{
+    display: block;
+  }
+  .maindivheader{
+    display: flex;
+  }
+  .subdivone img {
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;
+  }
+
+  .headerflex {
+    display: flex;
+    margin-top: 3px;
+    
+  }
+  .headerflex li {
+    margin-left: -45px;
+  }
+  .headerflex a {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .contactus {
+    padding: 6px;
+    background-color: #d3cccc;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-right: -50px;
+  }
+  .contentherosection {
+    width: 200px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.contentherosection h1 {
+  color: #252424;
+  font-size: 15px;
+}
+.contentherosection h2{
+  font-size: 10px;
+}
+.herosectionform {
+  display: flex;
+  position: absolute;
+  margin-top: 10px;
+}
+.herosectionform input {
+  margin-left: 10px;
+  padding: 5px 30px 5px 5px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  outline: none;
+}
+.herosectionform button {
+  width: 55px;
+  background-color: #5c49d3;
+  border: none;
+  border-radius: 6px;
+  color: aliceblue;
+  font-size: 10px;
+}
+.herosectionmaindiv{
+  display: flex;
+}
+  .herosectionsubdivtwo img {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+    margin-left: -5px;
+  }
+  .headingone,.headingtwo,.headingthree,.headingfour {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.galleryimage {
+  width: 82px;
+  text-align: center;
+  padding: 10px;
+  margin-top: -10px;
+}
+.galleryimage img{
+  width: 90px;
+  height: auto;;
+}
+.placename a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+.subdivcategorytwo,.subdivadventuretriptwo,.subdivsuperofferstwo{
+ font-size: 8px;
+ margin: 20px 0 20px 0px;
+}
+.categoryimage img{
+  width: 90px;
+  height: auto;
+  margin-left: -5px;
+}
+.categoryimage{
+  width: 70px;
+
+}
+.categoryimage a {
+  position: absolute;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: #5c49d3;
+    color: aliceblue;
+    width: 40px;
+    text-align: center;
+    margin-left: 39px;
+    font-size: 12px;
+    margin-top: -131px;
+    font-weight: 500;;
+}
+.adventuretripdemovideo iframe {
+  width: 100%;
+  height: 230px;
+}
+
+.subdivfiltercategoriesone{
+  display: none;
+}
+.offercartsimage {
+  width: 196px;
+  margin-left: -8px;
+  margin-top: -15px;
+}
+.hotelsdiv span {
+  color: rgba(66, 61, 61, 0.79);
+  font-size: 10px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.311px;
+}
+.flatoffersheading span {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.savebig span {
+  color: #000;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.offercartscontant p,.tandcsapply span{
+  display: none;
+}
+.offersone,.offerstwo{
+  border-radius: 6px;
+  height: auto;
+  width: 180px;
+  margin: 5px 5px 5px 0;
+  padding: 10px;
+  background-color: #e5e5e5;
+  outline: none;
+  border: none;
+}
+.offercartsbutton button {
+  border: none;
+  border-radius: 4px;
+  background-color: #5c49d3;
+  width: 67px;
+  padding: 4px;
+  margin: 5px 0 5px 55px;
+  font-size: 10px;
+}
+.offersthree,.subdivbookingtwo{
+  display: none;
+}
+.subdivbookingone {
+  width: 420px;
+  height: auto;
+  padding: 10px 10px 10px 0;
+}
+#font,.font,#checkin,#checkout {
+  font-size: 12px;
+}
+#boxone {
+  width: 170px;
+  padding: 10px;
+}
+.divbookingform {
+  padding: 15px 5px 15px 5px;
+  margin: 15px 0 0 0px;
+}
+#boxtwo {
+  width: 372px;
+}
+#boxthree {
+  width: 94px;
+}
+.bookingbutton button {
+  width: 90px;
+  padding: 5px;
+  margin: 5px 0 5px 152px;
+}
+
+.maindivfooter h3 {
+  font-size: 14px;
+  width: auto;      
+}
+.subdivfooterone, .subdivfootertwo, .subdivfooterthree, .subdivfooterfour {
+  width: auto;
+  height: auto;
+  margin: 0px 10px 0 15px;
+}
+.footerpara{
+  display: none;
+}
+.headerheadings a {
+  font-size: 10px;
+}
+.headerheadings li {
+  padding-bottom: 2px;
+}
+.headerheadings {
+  margin: 0px 0 10px 0;
+}
+.footercontact {
+  color: #000;
+  font-size: 8px;
+  width: auto;
+  padding: 10 0 0 0 ;
+}
+.subdivlogoone, .subdivlogotwo, .subdivlogothree, .subdivlogofour, .subdivlogofive {
+  width: 15px;
+  height: 15px;
+}
+.maindivlogo {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  margin-top: -15px
+}
+.maindivfooter{
+  display: flex;
+}
+.subdivcopyrightone{
+  display: none;
+}
+.subdivcopyrighttwo span {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  padding: 5px;
+}
+@media screen and (min-width:1536px) {
+  .headerflex{
+    margin-left: 686px;
+  }
+  .herosectionsubdivtwo img {
+    margin-left: 93px;
+  }
+  .herosectionform input{
+    padding-right: 630px;
+  }
+  .galleryimage{
+    width: 344px;
+  }
+  .offers {
+    margin: 20px 40px 20px 40px;
+  }
+  .categorygallery{
+    gap: 60px;
+  } 
+  .adventuretripdemovideo iframe{
+  width: 1280px;
+  height: 720px;
+  margin-left: 88px;
+  }
+  .maindivbooking{
+    justify-content: space-between;
+  }
+}
+}
